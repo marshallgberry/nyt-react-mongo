@@ -16,7 +16,7 @@ mongoose.connect(
 
 
 // Define middleware here
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors());
 // Serve up static assets (usually on heroku)
