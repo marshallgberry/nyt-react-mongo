@@ -40,7 +40,7 @@ class Home extends Component {
         success: "Here are your Articles!"
       }));
     } else {
-      this.setState({ error: `Bruh... Please be sure to enter a topic and that your dates are in YYYYMMDD format!` });
+      this.setState({ error: `Please be sure to enter a topic and that your dates are in YYYYMMDD format!` });
     }
 
 
