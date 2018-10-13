@@ -35,7 +35,7 @@ class Saved extends Component {
       if (res.data.success) {
         this.setState({
           savedArticles: this.state.savedArticles.filter(article => article._id !== id),
-          success: "Successfully Deleted Article!"
+          success: "Successfully Deleted Article"
         });
       } else {
         this.setState({ error: res.data.error, success: "" })

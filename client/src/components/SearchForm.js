@@ -15,7 +15,7 @@ const SearchForm = (props) => (
         <label htmlFor="end_date">End Date (YYYYMMDD)</label>
         <input name="end_date" className="form-control" onChange={props.handleInputChange} />
       </div>
-      <button onClick={props.handleOnSubmit} className="btn btn-primary btn-lg">Search</button>
+      <button onClick={props.handleOnSubmit} className="btn btn-lg">Search</button>
     </form>
   </div>
 
